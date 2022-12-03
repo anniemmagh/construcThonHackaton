@@ -26,7 +26,6 @@
   --box-color-4: #daffe5;
   --task-color: #777982;
 }
-
 body,
 .item,
 .top-part,
@@ -127,6 +126,7 @@ ul {
   background-color: #d5d7e3;
   box-shadow: -6px 0 0 0 #d5d7e3, 6px 0 0 0 #d5d7e3;
 }
+
 .page-content {
   display: flex;
   flex-direction: column;
@@ -345,6 +345,7 @@ label .label-text:before {
   cursor: pointer;
 }
 /*  */
+
 @media screen and (max-width: 900px) {
   .left-bar {
     display: none;
