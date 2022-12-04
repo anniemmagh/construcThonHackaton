@@ -292,6 +292,7 @@ label .label-text:before {
   color: #fff;
   justify-content: center;
 }
+
 .right-content {
   padding: 10px 40px;
   overflow-y: auto;
