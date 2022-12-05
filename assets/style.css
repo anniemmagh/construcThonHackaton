@@ -135,8 +135,9 @@ ul {
 }
 
 .page-content .header {
-  font-size: 26px;
-  color: var(--main-color);
+  font-size: 15px;
+  color: var(--checkbox-color);
+ height: 10px;
   margin-top: 30px;
 }
 
@@ -344,6 +345,27 @@ label .label-text:before {
   right: 20px;
   top: 30px;
   cursor: pointer;
+}
+.tag {
+  font-size: 10px;
+  padding: 4px 8px;
+  border-radius: 20px;
+}
+.tag.approvedd {
+  background-color:  var(--tag-color-text-one);
+  color:var(--tag-color-one);
+}
+.tag.progresss {
+  background-color:var(--tag-color-text-one) ;
+  color:var(--tag-color-two) ;
+}
+.tag.revieww {
+  background-color:var(--tag-color-text-one) ;
+  color:var(--tag-color-three);
+}
+.tag.waiting {
+  background-color: var(--tag-color-text-one);
+  color:var(--tag-color-four) ;
 }
 /*  */
 
